@@ -5,7 +5,7 @@
 We worked on reproducing the results of the Double-Hard Debias paper mentioned below.
 We had to make some changes to the provided code and also write new code to generate debiased GloVe and Word2Vec word embeddings and also to evaluate them.
 
-We also worked on using the method in the [Null-space projection (INLP) paper](https://github.com/shauli-ravfogel/nullspace_projection) with the Double-Hard pre-processing method. We compared the performance of the word embeddings created from this method with the word embeddings from Double-Hard Debias.
+We also worked on using the method in the [Null-space projection (INLP) paper](https://github.com/shauli-ravfogel/nullspace_projection) with the Double-Hard pre-processing method. We compared the performance of the word embeddings created from this method with the word embeddings from Double-Hard Debias. [Here](https://github.com/gracefan2020/nullspace_projection) is the forked repository for reproducing INLP.
 
 ### Data
 We did not include the datasets in this repository due to the large sizes of the datasets.
