@@ -5,11 +5,18 @@
 We worked on reproducing the results of the Double-Hard Debias paper mentioned below.
 We had to make some changes to the provided code and also write new code to generate debiased GloVe and Word2Vec word embeddings and also to evaluate them.
 
-We also worked on using the method in the [Null-space projection (INLP) paper](https://github.com/shauli-ravfogel/nullspace_projection) with the Double-Hard pre-processing method. We compared the performance of the word embeddings created from this method with the word embeddings from Double-Hard Debias. [Here](https://github.com/gracefan2020/nullspace_projection) is the forked repository for reproducing INLP.
+We also worked on using the method in the [Null-space projection (INLP) paper](https://github.com/shauli-ravfogel/nullspace_projection) with the Double-Hard pre-processing method. We compared the performance of the word embeddings created from this method with the word embeddings from Double-Hard Debias. [Here](https://github.com/gracefan2020/nullspace_projection) is the forked repository for reproducing INLP. To reproduce the evaluation we ran on FR-INLP, please copy `vecs.150k.cleaned.txt` and place it into `data/INLP_embeddings/`.
+
+### Dependencies
+Executing the evaluation code requires setting up the following dependencies:
+* Download the `EN-MSR.txt` file from [here](https://www.dropbox.com/s/ne0fib302jqbatw/EN-MSR.txt?dl=1) and place it in the repo's parent directory
+* Install the word-embeddings-benchmarks following instructions below
+* Clone the [original GloVe repo](https://github.com/stanfordnlp/GloVe) into this repo's parent directory.
 
 ### Data
 We did not include the datasets in this repository due to the large sizes of the datasets.
-You can refer to the instructions below to get the original datasets and the datasets from the original paper. 
+You can refer to the instructions below to get the original datasets and the datasets from the original paper. In particular, to generate the double-hard debiased GloVe embeddings we created, please download vectors.txt from [here](http://www.cs.virginia.edu/~tw8cb/word_embeddings/) and place it in the `\data` directory. 
+
 For word embeddings that we created, please reach out to us directly.
 
 ---

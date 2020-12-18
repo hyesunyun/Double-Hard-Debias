@@ -273,7 +273,7 @@ def evaluate_analogy_google(W, vocab):
         'gram5-present-participle.txt', 'gram6-nationality-adjective.txt',
         'gram7-past-tense.txt', 'gram8-plural.txt', 'gram9-plural-verbs.txt',
         ]
-    prefix = '/zf15/tw8cb/summer_2019/code/GloVe/eval/question-data/'
+    prefix = './GloVe/eval/question-data'
 
     # to avoid memory overflow, could be increased/decreased
     # depending on system and vocab size
@@ -340,7 +340,7 @@ def evaluate_analogy_google(W, vocab):
 def evaluate_analogy_msr(W, vocab, file_name='EN-MSR.txt'):
     """Evaluate the trained word vectors on a variety of tasks"""
 
-    prefix = '/zf15/tw8cb/summer_2019/code/GloVe/eval/question-data/'
+    prefix = '.'
 
     # to avoid memory overflow, could be increased/decreased
     # depending on system and vocab size
