@@ -7,6 +7,11 @@ We had to make some changes to the provided code and also write new code to gene
 
 We also worked on using the method in the [Null-space projection (INLP) paper](https://github.com/shauli-ravfogel/nullspace_projection) with the Double-Hard pre-processing method. We compared the performance of the word embeddings created from this method with the word embeddings from Double-Hard Debias.
 
+### Data
+We did not include the datasets in this repository due to the large sizes of the datasets.
+You can refer to the instructions below to get the original datasets and the datasets from the original paper. 
+For word embeddings that we created, please reach out to us directly.
+
 ---
 
 ## [Double-Hard Debias: Tailoring Word Embeddings for Gender Bias Mitigation](https://arxiv.org/abs/2005.00965)
